@@ -196,3 +196,8 @@ updates:
   directory: /deps
   schedule:
     interval: daily
+
+- package-ecosystem: pip
+  directory: /bazel
+  schedule:
+    interval: daily
